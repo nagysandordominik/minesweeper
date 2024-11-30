@@ -140,7 +140,7 @@ class _MinesweeperBoardState extends State<MinesweeperBoard> {
                   child: Center(
                     child: Text(
                       board[row][col].isRevealed
-                          ? (board[row][col].hasMine ? '💣' : '')
+                          ? (board[row][col].hasMine ? '💣' : '😍')
                           : '',
                     ),
                   ),
