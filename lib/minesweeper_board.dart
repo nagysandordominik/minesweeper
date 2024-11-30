@@ -80,7 +80,6 @@ class _MinesweeperBoardState extends State<MinesweeperBoard> {
         timer.cancel();
         _showGameOverDialog(false);
       }
-      // Add logic to reveal neighboring cells if no neighboring mines
     });
   }
 
